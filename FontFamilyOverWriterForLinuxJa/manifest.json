@@ -1,0 +1,12 @@
+{
+    "name": "FontFamilyOverWriterForLinuxJa",
+    "version": "0.1.0",
+    "manifest_version": 2,
+    "description": "This extension overwrites font-family in CSS in web pages for Linux Ja.",
+    "content_scripts": [
+        {
+            "matches": ["https://*/*"],
+            "js": ["FontFamilyOverWriterForLinuxJa.js"]
+        }
+    ]
+}
