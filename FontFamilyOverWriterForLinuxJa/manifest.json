@@ -2,10 +2,10 @@
     "name": "FontFamilyOverWriterForLinuxJa",
     "version": "0.1.0",
     "manifest_version": 3,
-    "description": "This extension overwrites font-family in CSS in web pages for Linux Ja.",
+    "description": "ウェブ ページのフォントをLinuxの日本語のフォントを最優先するように上書きします。",
     "content_scripts": [
         {
-            "matches": ["https://*/*"],
+            "matches": ["https://*/*", "file:///*/*"],
             "js": ["FontFamilyOverWriterForLinuxJa.js"]
         }
     ]
