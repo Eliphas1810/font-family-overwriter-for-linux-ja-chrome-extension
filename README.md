@@ -1,6 +1,6 @@
 # font-family-overwriter-for-linux-ja-chrome-extension
 
-## overview
+## Overview
 
 This Chrome extension overwrites font-family in CSS in web pages for Linux Ja.
 
